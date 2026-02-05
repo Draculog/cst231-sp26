@@ -2,7 +2,7 @@ package week3;
 
 import java.util.Random;
 
-public class Mon_Sec3 {
+public class Mon_Sec2 {
     public static void main(String[] args) {
         Random rand = new Random();
         int v1 = rand.nextInt();
