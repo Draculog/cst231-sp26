@@ -18,7 +18,7 @@ public class Sec2_Wed_Exam {
         // no
 //        while(! (input.equals("yes") || input.equals("no"))) {
 //        while(! input.equals("yes") && ! input.equals("no")) {
-        while(! input.equals("yes") ||b  input.equals("no")) {
+        while(! input.equals("yes") ||  input.equals("no")) {
             System.out.print("Enter yes or no to stop: ");
             input = s.next();
         }
