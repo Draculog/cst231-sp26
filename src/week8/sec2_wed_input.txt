@@ -1,0 +1,6 @@
+5
+cheese
+word
+gamble
+skillet
+false
