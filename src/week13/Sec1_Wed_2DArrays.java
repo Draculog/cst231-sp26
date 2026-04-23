@@ -28,6 +28,29 @@ public class Sec1_Wed_2DArrays {
 //        } while(input != 0);
     }
 
+    public static void sumEvensAndOdds(int [][] a) {
+//        int evens = sumEvens(a);
+//        int sum = sum(a);
+//        int odds = sum - evens;
+//        System.out.println(evens);
+//        System.out.println(odds);
+//        System.out.println(sum);
+    }
+
+    public static int sumEvens(int [][] a) {
+        int sum = 0;
+        for(int r = 0; r < a.length; r++) {
+            for (int c = 0; c < a[r].length; c++) {
+                if(a[r][c] % 2 == 0) {
+                    sum += a[r][c];
+                }
+            }
+        }
+
+        return sum;
+
+    }
+
     public static void decompress2(String filename) throws Exception {
         FileReader fr = new FileReader(filename);
         Scanner in = new Scanner(fr);
